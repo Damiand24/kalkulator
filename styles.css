@@ -1,0 +1,109 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.grey {
+    color: grey;
+}
+
+.block {
+    display: block;
+}
+
+.flex--col {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    min-width: 560px;
+}
+
+.form {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    width: 260px;
+    margin-right: 55px;
+}
+
+.field--number::-webkit-outer-spin-button,
+.field--number::-webkit-inner-spin-button,
+.wood-count::-webkit-outer-spin-button,
+.wood-count::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.field--number[type=number],
+.wood-count[type=number] {
+  -moz-appearance: textfield;
+}
+
+.field--number, select, .wood-count {
+    font-size: 15px;
+    height: 28px;
+}
+
+.field--number, .wood-count {
+    margin-bottom: 20px;
+    padding-left: 5px;
+    width: 200px;
+}
+
+.wood-count {
+    width: 100%;
+}
+
+.field--price {
+    padding-left: 18px; 
+    width: 100%;
+}
+
+.input--price::before {
+    content: '£';
+    font-size: 15px;
+    position: absolute;
+    left: 5px;
+    top: 28px;
+}
+
+.result-box {
+    font-size: 19px;
+}   
+
+#output--price {
+    margin-top: 70px;
+}
+
+.result-box--big {
+    border: 2px solid black;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.result-box--big p {
+    line-height: 10px;
+}
+
+#total {
+    margin-top: 40px;
+}
+
+.green {
+    color: darkgreen;
+}
+
+#volume {
+    padding-right: 20px;
+}
